@@ -24,12 +24,12 @@ server -> proxy 修改接口请求的路径配置
 
 
 # 项目目录
-|-- demo 
-    |-- index.html 
-    |-- jsconfig.json 
-    |-- package.json    依赖   
-    |-- README.md  
-    |-- vite.config.js   项目配置   
+|-- demo     
+    |-- index.html      
+    |-- jsconfig.json      
+    |-- package.json    依赖      
+    |-- README.md    
+    |-- vite.config.js   项目配置      
     |-- public  
     |   |-- favicon.ico     网站ico图标  
     |-- src  
