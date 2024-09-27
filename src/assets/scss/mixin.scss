@@ -1,0 +1,28 @@
+// 宽高
+@mixin wh($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+// 字体
+@mixin font($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+// 圆角边框
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin fxs($justify: space-between, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin elli() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
